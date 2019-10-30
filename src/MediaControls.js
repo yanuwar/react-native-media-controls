@@ -11,7 +11,7 @@ import {
   TouchableWithoutFeedback,
   // eslint ignore next $FlowFixMe
 } from 'react-native';
-import Slider from 'react-native-slider';
+import Slider from '@react-native-community/slider';
 import styles from './MediaControlsStyles';
 import { humanizeVideoDuration, noop } from './Utils';
 import PLAYER_STATES, { type PlayerState } from './Constants';
